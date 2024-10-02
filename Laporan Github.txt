@@ -1,0 +1,21 @@
+Nama : Muhammad Eka Saputra
+Nim  : 4123037
+Matkul : Pemweb1
+Dosen Pengampu : Pak Mifta
+
+Pengenalan tentang pemrograman web dan pembuatan akun GitHub serta penggunaanya.
+Login akun github kemudian buat repository lalu masukkan file ke repository
+
+cara memasukkan file ke repository
+(pastikan kalian sudah memiliki akun github dan software git)
+
+1.buatlah repository di github
+2.salin link  repository terserah https/ssh
+3.masuk kedalam gitbash dan tulis $ git clone (link repository)
+4.setelah sukses keluar dan cari folder repository
+5.jika sudah ketemu isi folder dengan file bebas
+6.setelah di isi klik kanan pada mouse /touch pad
+7.cari git bash dan masuk kan 
+"$ git add ."
+"$ git commit.(untuk menamai)"
+"$ git push (untuk mengecek apakah sudah masuk)
