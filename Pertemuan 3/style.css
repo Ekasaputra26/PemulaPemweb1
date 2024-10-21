@@ -19,8 +19,8 @@ body{
   }
   
   .cover{
-    height: 300px;
-    background-image: url(urlc:/Users/USER/Pictures/bijikopi.jpeg)
+    height: 190px;
+    background-image: url('c:/Users/USER/Pictures/wushu.jpeg')
   }
   
   .content h1{
