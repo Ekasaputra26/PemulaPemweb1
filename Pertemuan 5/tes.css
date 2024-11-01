@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+nav .logo {
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #a4b7d3;
+    text-decoration: none;
+}
+
+section {
+    padding: 4rem;
+    text-align: center;
+}
+
+
+#home {
+    background: url('c:/Users/USER/Pictures/Screenshots/Cuplikan layar 2024-10-23 060441.png') no-repeat center center/cover;
+    color: #fb0101;
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#TentangSaya {
+    background: #a4b7d3;
+    padding: 1rem 1rem;
+}
+
+#KontakSaya {
+    background: #0165fc94;
+    padding: 1rem 1rem;
+}
+
+.Prestasi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Prestasi .item {
+    background: #0165fc94;
+    color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    flex: 1 1 calc(30% - 2rem);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+}
